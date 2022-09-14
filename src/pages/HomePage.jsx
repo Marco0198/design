@@ -6,24 +6,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 // import layoutimage from './assets/group-25.png'
 import NavigationBar from '../components/NavigationBar.jsx'
+import Layout from '../components/Layout'
 const HomePage = () => {
     const element = <FontAwesomeIcon icon={faEnvelope} />
     return (
         <>
-            <div className="clipboard1">
-                <img src={logo} alt="Cloudy Sky" />
-            </div>
-            <div className="clipboard" >
-                <div className="achild">
-                    <img src={TreeLifeAg} alt="Cloudy Sky" />
-                </div>
-            </div>
-            <div className="aparent">
-                <div style={{ height: "200px" }}>
-                    <img src={TreeLifeAg} alt="Cloudy Sky" />
-                </div>
-                
-            </div>
+        <Layout showLogo={true}></Layout>
         </>
     )
 }

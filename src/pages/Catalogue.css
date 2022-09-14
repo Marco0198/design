@@ -1,5 +1,5 @@
-.product-card{
- 
+.product-card {
+
     width: auto;
     height: 300px;
     margin-left: 20px;
@@ -7,22 +7,24 @@
     margin-top: 10px;
     border: 1px solid #BCABAB;
     border-radius: 35px;
-    text-align-last:  10px left 10;
+    text-align-last: 10px left 10;
     background: #FFFFFF;
 
 }
-.product-name{
+
+.product-name {
     margin-top: 250px;
     margin-left: 25px;
 }
+
 .filter-button {
     background: #64CCC9;
-    width: 25mm;
+    width: 35mm;
     height: 38px;
     color: white;
 }
-.clipboard 
-{
+
+.clipboard {
     -webkit-clip-path: polygon(100% 0, 100% 0, 100% 100%, 0% 100%);
     clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 0% 100%);
     position: absolute;
@@ -37,8 +39,7 @@
     z-index: 2;
 }
 
-.clipboard1 
-{
+.clipboard1 {
     -webkit-clip-path: polygon(0 0, 50% 50%, 30% 100%, 0 100%);
     clip-path: polygon(0 0%, 100% 0%, 0% 100%, 0 100%);
     position: absolute;
@@ -46,12 +47,13 @@
     left: 0px;
     right: 0px;
     bottom: 0px;
-    background-color:white;
+    background-color: white;
     background-size: cover;
     background-position: center center;
     z-index: 2;
 }
-.container{
+
+.container {
     position: absolute;
     top: 10px;
     z-index: 1;
