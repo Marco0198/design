@@ -53,8 +53,13 @@
     z-index: 2;
 }
 
-.container {
+/* .container {
     position: absolute;
     top: 10px;
     z-index: 1;
-}
+} */
+.flexParent {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }

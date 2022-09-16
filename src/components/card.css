@@ -1,0 +1,18 @@
+.product-card {
+
+    min-width: 250px;
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    border: 1px solid #BCABAB;
+    border-radius: 35px;
+    text-align-last: 10px left 10;
+    background: #FFFFFF;
+
+}
+
+.product-name {
+    margin-top: 250px;
+    margin-left: 25px;
+}

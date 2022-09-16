@@ -1,0 +1,808 @@
+{"products":[
+  {
+    "id": "1",
+    "product_name": "BBAR",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  },
+  {
+    "id": "2",
+    "product_name": "BBARH",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  },
+  {
+    "id": "3",
+    "product_name": "BCURVE",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  },
+  {
+    "id": "4",
+    "product_name": "BDROPBAR",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  },
+  {
+    "id":"5",
+    "product_name": "CBAR",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  },
+  {
+    "id":"6",
+    "product_name": "CCIRCLE",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  },
+  {
+    "id":"7",
+    "product_name": "CCIRCLE",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  }
+  ,
+  {
+    "id":"8",
+    "product_name": "CCURVE",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  }
+  ,
+  {
+    "id":"9",
+    "product_name": "CDROPBAR",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  }
+  ,
+  {
+    "id":"10",
+    "product_name": "DBAR",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  }
+  ,
+  {
+    "id":"11",
+    "product_name": "DCIRCLE",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  }
+  ,
+  {
+    "id":"12",
+    "product_name": "DINFINITY",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  }
+  ,
+  {
+    "id":"13",
+    "product_name": "EBAR",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  }
+  ,
+  {
+    "id":"14",
+    "product_name": "ECIRCLE",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  }
+  ,
+  {
+    "id":"15",
+    "product_name": "EINFINITY",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  }
+  ,
+  {
+    "id":"16",
+    "product_name": "VBAR",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  },
+  {
+    "id":"17",
+    "product_name": "SWCROSS",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  }
+  ,
+  {
+    "id":"18",
+    "product_name": "INLOVE",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  },
+  {
+    "id":"19",
+    "product_name": "CCROWN",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  }
+  ,
+  {
+    "id":"20",
+    "product_name": "MONOD",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  }
+  ,
+  {
+    "id":"21",
+    "product_name": "MONOD",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  }
+  ,
+  {
+    "id":"22",
+    "product_name": "CCURVE2",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  }
+  ,
+  {
+    "id":"23",
+    "product_name": "CCURVE3",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  }
+  ,
+  {
+    "id":"24",
+    "product_name": "CCURVE3",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  }
+  ,
+  {
+    "id":"25",
+    "product_name": "LCIRCLE",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  }
+  ,
+  {
+    "id":"26",
+    "product_name": "LCIRCLE2",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  }
+  ,
+  {
+    "id":"27",
+    "product_name": "LCIRCLE3",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  }
+  ,
+  {
+    "id":"28",
+    "product_name": "LCIRCLE4",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  }
+  ,
+  {
+    "id":"29",
+    "product_name": "LCIRCLE5",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  },
+ 
+  {
+    "id":"30",
+    "product_name": "DILOC",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  },
+  {
+    "id":"31",
+    "product_name": "CILOC",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  },
+  {
+    "id":"32",
+    "product_name": "HILOC",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  },
+  {
+    "id":"33",
+    "product_name": "QUATTRO",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  },
+  {
+    "id":"34",
+    "product_name": "QUATTRO",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  },
+  {
+    "id":"35",
+    "product_name": "LUVBIRDS",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  },
+  {
+    "id":"200",
+    "product_name":"TREELIFE",
+    "product_type":"PENDANT",
+    "product_category":"MEMI"
+  }
+  ,
+
+  {
+    "id":"201",
+    "product_name":"PP001",
+    "product_type":"PENDANT",
+    "product_category":"MEMI"
+  },
+  {
+    "id":"202",
+    "product_name":"PP002",
+    "product_type":"PENDANT",
+    "product_category":"MEMI"
+  }
+  ,
+  {
+    "id":"203",
+    "product_name":"PP003",
+    "product_type":"PENDANT",
+    "product_category":"MEMI"
+  }
+  ,
+  {
+    "id":"204",
+    "product_name":"PZBAR2",
+    "product_type":"PENDANT",
+    "product_category":"MEMI"
+  }
+  ,
+  {
+    "id":"205",
+    "product_name":"PZSQU2",
+    "product_type":"PENDANT",
+    "product_category":"MEMI"
+  }
+  ,
+  {
+    "id":"206",
+    "product_name":"PZHRT2",
+    "product_type":"PENDANT",
+    "product_category":"MEMI"
+  }
+  ,
+  {
+    "id":"207",
+    "product_name":"PZHRT3",
+    "product_type":"PENDANT",
+    "product_category":"MEMI"
+  },
+  {
+    "id":"208",
+    "product_name":"MCC000",
+    "product_type":"PENDANT",
+    "product_category":"MEMI"
+  },
+  {
+    "id":"209",
+    "product_name":"HTAG",
+    "product_type":"PENDANT",
+    "product_category":"MEMI"
+  },
+  {
+    "id":"210",
+    "product_name":"MCC000",
+    "product_type":"PENDANT",
+    "product_category":"MEMI"
+  },
+  {
+    "id":"211",
+    "product_name":"SKETCH",
+    "product_type":"PENDANT",
+    "product_category":"MEMI"
+  },
+  {
+    "id":"212",
+    "product_name":"CODSK01",
+    "product_type":"PENDANT",
+    "product_category":"MEMI"
+  },
+  {
+    "id":"213",
+    "product_name":"CODSK02",
+    "product_type":"PENDANT",
+    "product_category":"MEMI"
+  },
+  {
+    "id":"214",
+    "product_name":"CODSK03",
+    "product_type":"PENDANT",
+    "product_category":"MEMI"
+  },
+  {
+    "id":"215",
+    "product_name":"CODSK04",
+    "product_type":"PENDANT",
+    "product_category":"MEMI"
+  },
+  {
+    "id":"216",
+    "product_name":"CODSK05",
+    "product_type":"PENDANT",
+    "product_category":"MEMI"
+  },
+  {
+    "id":"217",
+    "product_name":"CODSK06",
+    "product_type":"PENDANT",
+    "product_category":"MEMI"
+  },
+  {
+    "id":"218",
+    "product_name":"CODSK07",
+    "product_type":"PENDANT",
+    "product_category":"MEMI"
+  },
+  {
+    "id":"219",
+    "product_name":"CODSK08",
+    "product_type":"PENDANT",
+    "product_category":"MEMI"
+  },
+  {
+    "id":"220",
+    "product_name":"CODSK09",
+    "product_type":"PENDANT",
+    "product_category":"MEMI"
+  },
+  {
+    "id":"221",
+    "product_name":"CODSK10",
+    "product_type":"PENDANT",
+    "product_category":"MEMI"
+  },
+  {
+    "id":"222",
+    "product_name":"CODSK11",
+    "product_type":"PENDANT",
+    "product_category":"MEMI"
+  },
+  {
+    "id":"223",
+    "product_name":"CODSK12",
+    "product_type":"PENDANT",
+    "product_category":"MEMI"
+  },
+  {
+    "id":"224",
+    "product_name":"CODSK13",
+    "product_type":"PENDANT",
+    "product_category":"MEMI"
+  },
+  {
+    "id":"225",
+    "product_name":"CODSK14",
+    "product_type":"PENDANT",
+    "product_category":"MEMI"
+  },
+  {
+    "id":"226",
+    "product_name":"CODSK15",
+    "product_type":"PENDANT",
+    "product_category":"MEMI"
+  },
+  {
+    "id":"227",
+    "product_name":"CODSK16",
+    "product_type":"PENDANT",
+    "product_category":"MEMI"
+  },
+  {
+    "id":"228",
+    "product_name":"CODSK17",
+    "product_type":"PENDANT",
+    "product_category":"MEMI"
+  },
+  {
+    "id":"229",
+    "product_name":"CODSK18",
+    "product_type":"PENDANT",
+    "product_category":"MEMI"
+  },
+  {
+    "id":"230",
+    "product_name":"CODSK19",
+    "product_type":"PENDANT",
+    "product_category":"MEMI"
+  },
+  {
+    "id":"231",
+    "product_name":"CODSK20",
+    "product_type":"PENDANT",
+    "product_category":"MEMI"
+  },
+  {
+    "id":"232",
+    "product_name":"CODSK21",
+    "product_type":"PENDANT",
+    "product_category":"MEMI"
+  },
+
+  {
+    "id":"300",
+    "product_name":"MS001",
+    "product_type":"CHARM",
+    "product_category":"MEMI"
+  }
+  ,
+  {
+    "id":"301",
+    "product_name":"MS002",
+    "product_type":"CHARM",
+    "product_category":"MEMI"
+  }
+  ,
+  {
+    "id":"302",
+    "product_name":"MS002",
+    "product_type":"CHARM",
+    "product_category":"MEMI"
+  },
+
+  {
+    "id":"303",
+    "product_name":"MS003",
+    "product_type":"CHARM",
+    "product_category":"MEMI"
+  },{
+    "id":"304",
+    "product_name":"MS004",
+    "product_type":"CHARM",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"305",
+    "product_name":"MS005",
+    "product_type":"CHARM",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"306",
+    "product_name":"MS213",
+    "product_type":"CHARM",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"307",
+    "product_name":"MS214",
+    "product_type":"CHARM",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"308",
+    "product_name":"MS214",
+    "product_type":"CHARM",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"309",
+    "product_name":"MS215",
+    "product_type":"CHARM",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"310",
+    "product_name":"MS216",
+    "product_type":"CHARM",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"311",
+    "product_name":"MS222",
+    "product_type":"CHARM",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"312",
+    "product_name":"MS223",
+    "product_type":"CHARM",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"313",
+    "product_name":"MS224",
+    "product_type":"CHARM",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"314",
+    "product_name":"MS225",
+    "product_type":"CHARM",
+    "product_category":"MEMI"
+  }
+    ,{
+    "id":"315",
+    "product_name":"MS226",
+    "product_type":"CHARM",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"316",
+    "product_name":"MS227",
+    "product_type":"CHARM",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"317",
+    "product_name":"MS228",
+    "product_type":"CHARM",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"318",
+    "product_name":"MS256",
+    "product_type":"CHARM",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"319",
+    "product_name":"MS258",
+    "product_type":"CHARM",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"320",
+    "product_name":"MS258",
+    "product_type":"CHARM",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"321",
+    "product_name":"MS258",
+    "product_type":"CHARM",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"321",
+    "product_name":"MS258",
+    "product_type":"CHARM",
+    "product_category":"MEMI"
+  }
+
+  ,{
+    "id":"400",
+    "product_name":"CBARBR",
+    "product_type":"BRACELET",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"401",
+    "product_name":"CBARBRC",
+    "product_type":"BRACELET",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"402",
+    "product_name":"CCIRCLEBR",
+    "product_type":"BRACELET",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"403",
+    "product_name":"CCIRCLEBRC",
+    "product_type":"BRACELET",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"404",
+    "product_name":"INFINITYBRC",
+    "product_type":"BRACELET",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"405",
+    "product_name":"IDRECBRC",
+    "product_type":"BRACELET",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"406",
+    "product_name":"IDOVALBRC",
+    "product_type":"BRACELET",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"407",
+    "product_name":"FLWRBRC",
+    "product_type":"BRACELET",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"408",
+    "product_name":"DISCBRC",
+    "product_type":"BRACELET",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"409",
+    "product_name":"CLOCKBRC",
+    "product_type":"BRACELET",
+    "product_category":"MEMI"
+  }
+
+   ,{
+    "id":"410",
+    "product_name":"BNG001",
+    "product_type":"BRACELET",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"411",
+    "product_name":"CODSK01BR",
+    "product_type":"BRACELET",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"412",
+    "product_name":"CODSK02BR",
+    "product_type":"BRACELET",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"413",
+    "product_name":"CODSK03BR",
+    "product_type":"BRACELET",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"414",
+    "product_name":"CODSK04BR",
+    "product_type":"BRACELET",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"415",
+    "product_name":"CODSK05BR",
+    "product_type":"BRACELET",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"416",
+    "product_name":"CODSK06BR",
+    "product_type":"BRACELET",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"417",
+    "product_name":"CODSK07BR",
+    "product_type":"BRACELET",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"418",
+    "product_name":"CODSK08BR",
+    "product_type":"BRACELET",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"419",
+    "product_name":"CODSK09BR",
+    "product_type":"BRACELET",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"420",
+    "product_name":"CODSK10BR",
+    "product_type":"BRACELET",
+    "product_category":"MEMI"
+  } 
+   ,{
+    "id":"421",
+    "product_name":"CODSK11BR",
+    "product_type":"BRACELET",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"422",
+    "product_name":"CODSK12BR",
+    "product_type":"BRACELET",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"423",
+    "product_name":"CODSK13BR",
+    "product_type":"BRACELET",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"424",
+    "product_name":"CODSK14BR",
+    "product_type":"BRACELET",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"425",
+    "product_name":"CODSK15BR",
+    "product_type":"BRACELET",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"426",
+    "product_name":"CODSK16BR",
+    "product_type":"BRACELET",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"427",
+    "product_name":"CODSK17BR",
+    "product_type":"BRACELET",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"428",
+    "product_name":"CODSK18BR",
+    "product_type":"BRACELET",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"429",
+    "product_name":"CODSK19BR",
+    "product_type":"BRACELET",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"430",
+    "product_name":"CODSK20BR",
+    "product_type":"BRACELET",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"431",
+    "product_name":"CODSK21BR",
+    "product_type":"BRACELET",
+    "product_category":"MEMI"
+  }
+  
+
+  ,{
+    "id":"500",
+    "product_name":"EMS001",
+    "product_type":"EARRINGS",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"501",
+    "product_name":"EMS003",
+    "product_type":"EARRINGS",
+    "product_category":"MEMI"
+  }
+  ,{
+    "id":"503",
+    "product_name":"EMS005",
+    "product_type":"EARRINGS",
+    "product_category":"MEMI"
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
+}

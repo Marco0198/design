@@ -1,0 +1,64 @@
+{"products":[
+  {
+    "id": "1",
+    "product_name": "BBAR",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  },
+  {
+    "id": "2",
+    "product_name": "BBARH",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  },
+  {
+    "id": "3",
+    "product_name": "BCURVE",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  },
+  {
+    "id": "4",
+    "product_name": "BDROPBAR",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  },
+  {
+    "id":"5",
+    "product_name": "CBAR",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  },
+  {
+    "id":"6",
+    "product_name": "CCIRCLE",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  },
+  {
+    "id":"7",
+    "product_name": "CCIRCLE",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  },
+  {
+    "id":"8",
+    "product_name": "CCURVE",
+    "product_type": "NECKLACE",
+    "product_category": "MEMI"
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
+}

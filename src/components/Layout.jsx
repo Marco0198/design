@@ -13,7 +13,7 @@ const Layout = (props) => {
                 {props.showLogo ? <img src={logo} alt="Cloudy Sky" /> : ""}
             </div>
 
-            <div className="container">
+            <div className="container-box">
                 {props.children}
             </div>
             <NavigationBar />
