@@ -1,51 +1,133 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useMemo } from 'react'
 import './Catalogue.css'
 import RightIcon from '../assets/icon.png'
 import LeftIcon from '../assets/icon2.png'
 import Layout from '../components/Layout'
-import { faFilter } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import axios from 'axios'
 import ProductCard from '../components/ProductCard'
-
-
+import Pagination from '../components/Pagination'
 const Catalogue = () => {
-  const [data, setData] = useState([])
-  const fetchData = async () => {
-    try {
-      const response = await axios.get('http://localhost:3000/products')
-      setData(response.data);
-    } catch (error) {
-      console.log(error);
-    }
-  }
+
+  const [todos, setTodos] = useState([]);
+  const [searchTerm, setSearchTerm] = useState("");
+  const [filterCompleted, setFilterCompleted] = useState("BRACELET");
+
+  const [currentPage, setCurrentPage] = useState(1);
+  const [totalTodos, setTotalTodos] = useState(0);
+  const todosPerPage = 8;
+
+  const nPages = Math.ceil(totalTodos / todosPerPage)
   useEffect(() => {
+    axios
+      .get(`http://localhost:3000/products`)
+      .then((response) => {
+        setTodos(response.data);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }, []);
 
-    fetchData();
 
-  }, [])
-  console.log(data)
+  const todosData = useMemo(() => {
+    let computedTodos = todos;
+
+    if (searchTerm) {
+      computedTodos = computedTodos.filter(
+        todo =>
+          todo.product_name.toLowerCase().includes(searchTerm.toLowerCase())
+      );
+    }
+
+    if (filterCompleted === "BRACELET") {
+      computedTodos = computedTodos.filter(
+        todo =>
+          filterCompleted === "BRACELET" && todo.product_type === "BRACELET"
+      )
+    }
+
+    if (filterCompleted === "EARRINGS") {
+      computedTodos = computedTodos.filter(
+        todo =>
+          filterCompleted === "EARRINGS" && todo.product_type === "EARRINGS"
+      )
+    }
+
+    setTotalTodos(computedTodos.length);
+
+    //Current Page slice
+    return computedTodos.slice(
+      (currentPage - 1) * todosPerPage,
+      (currentPage - 1) * todosPerPage + todosPerPage
+    );
+  }, [todos, currentPage, searchTerm, filterCompleted]);
+  // Change page
+  const paginate = (pageNumber) => setCurrentPage(pageNumber);
+  console.log("current", currentPage)
+  const resetFilter = () => {
+    setSearchTerm("");
+    setFilterCompleted("");
+    setCurrentPage(1);
+  };
   return (
     <>
+
       <Layout>
         <>
-          <button className="filter-button btn m-3 mt-4 ">FILTER <FontAwesomeIcon icon={faFilter} /></button>
-          <button className="filter-button btn btn  mt-2">CATEGORY </button>
-          <img src={LeftIcon} className="float-end mt-3 m-1" alt="left icon" />
-          <img src={RightIcon} className="float-end mt-3 ml-2" alt="left icon" />
-          <div className="flexParent" >
-            {data.map((product, index) => {
-              return (
-              <>
-                <div key={index}><ProductCard title={product.product_name} /></div>
-              </>)
-            })}
+          <div className="row mt-5 ">
+
+            <div className="col-sm-2 mb-2">
+              <select
+                className="form-select"
+                value={filterCompleted}
+                onChange={(e) => {
+                  setFilterCompleted(e.target.value);
+                  setCurrentPage(1);
+                }}
+              >
+                <option defaultValue=""></option>
+                <option value="EARRINGS">EARRINGS</option>
+                <option value="BRACELET">BRACELET</option>
+              </select>
+
+            </div>
+            <div className="col ">
+              <input
+                type="text"
+                className="form-control"
+                id="search"
+                placeholder="Search Title"
+                value={searchTerm}
+                onChange={(e) => {
+                  setSearchTerm(e.target.value);
+                  setCurrentPage(1);
+                }}
+              />
+            </div>
           </div>
+
+          <div className="flexParent" >
+
+          </div>
+          <div >
+
+            <div className="mb-3">
+            </div>
+
+            <div ><ProductCard data={todosData} /></div>
+
+          </div>
+          <div className="float-right m-5">
+            <Pagination
+              nPages={nPages}
+              currentPage={currentPage}
+              setCurrentPage={setCurrentPage}
+            />
+          </div>
+
         </></Layout>
 
     </>
-
-
 
   )
 }

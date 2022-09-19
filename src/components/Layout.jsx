@@ -8,7 +8,7 @@ const Layout = (props) => {
     return (
 
         <>
-            {props.showClipboard}<></>
+            {/* {props.showClipboard}<></> */}
             <div className="clipboard1">
                 {props.showLogo ? <img src={logo} alt="Cloudy Sky" /> : ""}
             </div>

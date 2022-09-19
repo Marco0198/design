@@ -24,7 +24,7 @@
     color: white;
 }
 
-.clipboard {
+/* .clipboard {
     -webkit-clip-path: polygon(100% 0, 100% 0, 100% 100%, 0% 100%);
     clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 0% 100%);
     position: absolute;
@@ -51,7 +51,7 @@
     background-size: cover;
     background-position: center center;
     z-index: 2;
-}
+} */
 
 /* .container {
     position: absolute;

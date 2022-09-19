@@ -32,5 +32,6 @@
     position: relative;
     justify-content: center;
     width: auto;
+    min-height: 600px;
     
 }

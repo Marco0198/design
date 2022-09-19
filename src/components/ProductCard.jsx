@@ -1,15 +1,19 @@
 import React from 'react'
 import './card.css'
-const ProductCard = props => {
+const ProductCard = ({ data }) => {
   return (
-   
-      
-        <div className="col-sm-3">
+    <div div className="flexParent">
+      {data.map((item,index) => (
+        <div className="col-sm-3" key={index}>
           <div className="product-card">
-            <p className="product-name">{props.title}</p>
+            <p className="product-name">{item.product_name}</p>
           </div>
-        </div>
-     
+        </div>))}
+
+    </div>
+
+
+
 
   )
 }
