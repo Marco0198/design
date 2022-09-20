@@ -1,30 +1,4 @@
-.clipboard {
-    -webkit-clip-path: polygon(100% 0, 100% 0, 100% 100%, 0% 100%);
-    clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 0% 100%);
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    color: #FFFFFF;
-    background-color: #64CCC9;
-    background-size: cover;
-    background-position: center center;
-}
 
-.clipboard1 {
-    -webkit-clip-path: polygon(0 0, 50% 50%, 30% 100%, 0 100%);
-    clip-path: polygon(0 0%, 100% 0%, 0% 100%, 0 100%);
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    background-color: white;
-    /* background-color: rgb(22, 22, 54); */
-    background-size: cover;
-    background-position: center center;
-}
 
 .clipboard-img {
     width: 700px;
@@ -122,14 +96,3 @@ span:before {
     -webkit-transform: rotate(-45deg);
     -webkit-transform-origin: 0 0;
 }
-
-
-/* @media all and (orientation:landscape) {
-    /* Styles for Landscape screen */
-/* } */
-
-/* @media all and (orientation:portrait) {
-    body {
-        display: none */
-    /* }
-} */ 

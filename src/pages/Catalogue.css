@@ -1,65 +1,20 @@
-.product-card {
-
-    width: auto;
-    height: 300px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 10px;
-    border: 1px solid #BCABAB;
-    border-radius: 35px;
-    text-align-last: 10px left 10;
-    background: #FFFFFF;
-
-}
-
-.product-name {
-    margin-top: 250px;
-    margin-left: 25px;
-}
-
 .filter-button {
     background: #64CCC9;
     width: 35mm;
     height: 38px;
     color: white;
 }
-
-/* .clipboard {
-    -webkit-clip-path: polygon(100% 0, 100% 0, 100% 100%, 0% 100%);
-    clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 0% 100%);
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    color: #FFFFFF;
-    background-color: #64CCC9;
-    background-size: cover;
-    background-position: center center;
-    z-index: 2;
+input[type=text],.form-select
+{
+    border: 3px solid #ead188;
+    justify-content: center;
+    border-radius: 10px;
 }
 
-.clipboard1 {
-    -webkit-clip-path: polygon(0 0, 50% 50%, 30% 100%, 0 100%);
-    clip-path: polygon(0 0%, 100% 0%, 0% 100%, 0 100%);
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    background-color: white;
-    background-size: cover;
-    background-position: center center;
-    z-index: 2;
-} */
 
-/* .container {
-    position: absolute;
-    top: 10px;
-    z-index: 1;
-} */
 .flexParent {
     display: flex;
     flex-flow: row wrap;
+    min-height: 500px;
     justify-content: center;
   }

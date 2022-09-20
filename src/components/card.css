@@ -1,18 +1,21 @@
 .product-card {
 
-    max-width: 250px;
-    height: 250px;
-    margin-left: 20px;
-    margin-right: 20px;
+    max-width: 350px;
+    width: auto;
+    min-height: 250px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 15px;
-    border: 1px solid #BCABAB;
+    border: 3px solid #ead188;
     border-radius: 35px;
     text-align-last: 10px left 10;
     background: #FFFFFF;
 
 }
 
-.product-name {
-    margin-top: 200px;
-    margin-left: 25px;
+.product-card .product-name {
+    margin-top: 1px;
+    word-wrap: break-word;
+    margin-left: 35px;
 }

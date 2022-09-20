@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
-html, body {
+html, body
+ {
     overflow-x: hidden;
     height: 100%;
 }
-body {
-    /* background: rgb(27, 8, 8); */
+body 
+{
     padding: 0;
     margin: 0;
     font-family: 'Varela Round', sans-serif;
 }
-.header {
+.header 
+{
     display: block;
     margin: 0 ;
     width: 100%;
@@ -24,7 +26,8 @@ body {
     overflow: hidden;
     z-index: 3;
 }
-.main {
+.main 
+{
     margin: 0 auto;
     display: block;
     height: 100%;
@@ -34,19 +37,9 @@ body {
     z-index: 2;
    
 }
-/* .mainInner{
-    height: 100%;
-    width: 100%;
-    text-align: center;
-}
-.mainInner div{
-    display:table-cell;
-    vertical-align: middle;
-    font-size: 3em;
-    font-weight: bold;
-    letter-spacing: 1.25px;
-} */
-#sidebarMenu {
+
+#sidebarMenu
+ {
     height: 70%;
     position: fixed;
     top: 50px;
@@ -59,12 +52,14 @@ body {
     background: #0c0f0f;
     z-index: 2;
 }
-.sidebarMenuInner{
+.sidebarMenuInner
+{
     margin:0;
     padding:0;
     border-top: 1px solid rgba(255, 255, 255, 0.10);
 }
-.sidebarMenuInner li{
+.sidebarMenuInner li
+{
     list-style: none;
     color: #fff;
     text-transform: uppercase;
@@ -73,12 +68,14 @@ body {
     cursor: pointer;
     border-bottom: 1px solid rgba(255, 255, 255, 0.10);
 }
-.sidebarMenuInner li span{
+.sidebarMenuInner li span
+{
     display: block;
     font-size: 14px;
     color: rgba(255, 255, 255, 0.50);
 }
-.sidebarMenuInner li a{
+.sidebarMenuInner li a
+{
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
@@ -89,12 +86,14 @@ input[type="checkbox"]:checked ~ #sidebarMenu {
     transform: translateX(0);
 }
 
-input[type=checkbox] {
+input[type=checkbox] 
+{
     transition: all 0.3s;
     box-sizing: border-box;
     display: none;
 }
-.sidebarIconToggle {
+.sidebarIconToggle 
+{
     transition: all 0.3s;
     box-sizing: border-box;
     cursor: pointer;
@@ -109,7 +108,8 @@ input[type=checkbox] {
     height: 22px;
     width: 22px;
 }
-.spinner {
+.spinner
+ {
     transition: all 0.3s;
     box-sizing: border-box;
     position: absolute;
@@ -117,7 +117,8 @@ input[type=checkbox] {
     width: 100%;
     background-color: #fff;
 }
-.horizontal {
+.horizontal 
+{
     transition: all 0.3s;
     box-sizing: border-box;
     position: relative;
@@ -154,7 +155,8 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     transform: rotate(-135deg);
     margin-top: -9px;
 }
-.footer{
+.footer
+{
 box-sizing: border-box;
 position: fixed;
 width:100%;
@@ -166,13 +168,15 @@ background: #64CCC9;
 border: 2px solid #DCCFCF;
 box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25)
 }
-#big_diamond {
+#big_diamond 
+{
     width: 50%;
     margin:15% auto;
     overflow:hidden;
     transform: rotate(45deg);
   }
-  .diamond {
+  .diamond
+   {
     position: relative;
     float: left;
     width: 31.33%;
@@ -181,7 +185,8 @@ box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25)
     background: rgb(27, 13, 13);
     transition:background-color .4s;
   }
-  .diamond a {
+  .diamond a 
+  {
     position: absolute;
     top: 0; left: 0;
     width: 100%; height: 100%;

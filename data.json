@@ -438,7 +438,7 @@
 
   {
     "id":"300",
-    "product_name":"MS001",
+    "product_name":"M001",
     "product_type":"CHARM",
     "product_category":"MEMI"
   }
@@ -790,19 +790,5 @@
     "product_type":"EARRINGS",
     "product_category":"MEMI"
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ]
 }

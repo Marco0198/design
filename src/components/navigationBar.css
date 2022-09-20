@@ -1,11 +1,10 @@
 .nav-position{
 
     bottom: 0;
-   
     width: 100%;
     display: flex;
-    margin-bottom: 90px;
-    margin-top: 70px;
+    margin-top: 230px;
+    bottom: 80px;
     justify-content: center;
     position: relative;
 

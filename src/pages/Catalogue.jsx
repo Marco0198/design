@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react'
 import './Catalogue.css'
-import RightIcon from '../assets/icon.png'
-import LeftIcon from '../assets/icon2.png'
+import FsLightbox from 'fslightbox-react';
 import Layout from '../components/Layout'
 import axios from 'axios'
 import ProductCard from '../components/ProductCard'
@@ -11,10 +10,10 @@ const Catalogue = () => {
   const [todos, setTodos] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [filterCompleted, setFilterCompleted] = useState("BRACELET");
-
   const [currentPage, setCurrentPage] = useState(1);
   const [totalTodos, setTotalTodos] = useState(0);
   const todosPerPage = 8;
+  const [toggler, setToggler] = useState(false);
 
   const nPages = Math.ceil(totalTodos / todosPerPage)
   useEffect(() => {
@@ -52,16 +51,33 @@ const Catalogue = () => {
           filterCompleted === "EARRINGS" && todo.product_type === "EARRINGS"
       )
     }
+    if (filterCompleted === "NECKLACE") {
+      computedTodos = computedTodos.filter( 
+        todo =>
+          filterCompleted === "NECKLACE" && todo.product_type === "NECKLACE"
+      )
+    }
+    if (filterCompleted === "PENDANT") {
+      computedTodos = computedTodos.filter( 
+        todo =>
+          filterCompleted === "PENDANT" && todo.product_type === "PENDANT"
+      )
+    }
+    if (filterCompleted === "CHARM") {
+      computedTodos = computedTodos.filter( 
+        todo =>
+          filterCompleted === "CHARM" && todo.product_type === "CHARM"
+      )
+    }
+
+
 
     setTotalTodos(computedTodos.length);
-
-    //Current Page slice
     return computedTodos.slice(
       (currentPage - 1) * todosPerPage,
       (currentPage - 1) * todosPerPage + todosPerPage
     );
   }, [todos, currentPage, searchTerm, filterCompleted]);
-  // Change page
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
   console.log("current", currentPage)
   const resetFilter = () => {
@@ -71,11 +87,9 @@ const Catalogue = () => {
   };
   return (
     <>
-
       <Layout>
-        <>
+        <div className='container'>
           <div className="row mt-5 ">
-
             <div className="col-sm-2 mb-2">
               <select
                 className="form-select"
@@ -86,10 +100,12 @@ const Catalogue = () => {
                 }}
               >
                 <option defaultValue=""></option>
+                <option value="NECKLACE">NECKLACES</option>
+                <option value="PENDANT">PENDANTS</option>
+                <option value="BRACELET">BRACELETS</option>
                 <option value="EARRINGS">EARRINGS</option>
-                <option value="BRACELET">BRACELET</option>
+                <option value="CHARM">CHARMS</option>
               </select>
-
             </div>
             <div className="col ">
               <input
@@ -105,19 +121,10 @@ const Catalogue = () => {
               />
             </div>
           </div>
-
           <div className="flexParent" >
-
+          <ProductCard data={todosData} />
           </div>
-          <div >
-
-            <div className="mb-3">
-            </div>
-
-            <div ><ProductCard data={todosData} /></div>
-
-          </div>
-          <div className="float-right m-5">
+          <div className="float-right m-4">
             <Pagination
               nPages={nPages}
               currentPage={currentPage}
@@ -125,7 +132,21 @@ const Catalogue = () => {
             />
           </div>
 
-        </></Layout>
+        </div>
+        <>
+{/* <button onClick={() => setToggler(!toggler)}>
+Toggle Lightbox
+</button> */}
+<FsLightbox
+toggler={toggler}
+sources={[
+'https://i.imgur.com/fsyrScY.jpg',
+'https://www.youtube.com/watch?v=3nQNiWdeH2Q',
+'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'
+]}
+/>
+</>
+        </Layout>
 
     </>
 

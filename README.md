@@ -5,3 +5,4 @@ https://stackoverflow.com/questions/70946170/how-to-implement-pagination-with-fi
 https://www.freecodecamp.org/news/how-to-react-components/
 https://codesandbox.io/s/react-table-global-filter-pagination-49w2p?file=/src/App.js
 https://stackoverflow.com/questions/40232847/how-to-implement-pagination-in-react
+https://stackblitz.com/edit/reactstrap-image-gallery-modal-carousel?file=components%2FReactstrapImageGallery.jsx

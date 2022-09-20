@@ -1,65 +1,75 @@
-.box {
-    background: transparent;
+.box 
+{
+    background: rgb(105, 90, 90);
     position: absolute;
     width: 100%;
-    height: 684px;
+    height: 500px;
     left: auto;
-    top: 12px;
+    padding-left: 30px;
+    top: 100px;
     z-index: 3;
-    filter: drop-shadow(5px 4px 4px rgba(0, 0, 0, 0.25));
+    border: 1px solid #BCABAB;
     display: flex;
     justify-content: center;
-    /* border: 3px solid #BCABAB; */
     border-radius: 20px;
+    flex-flow: row wrap;
 }
 
-.box2 {
-    position: absolute;
-    background: white;
-    width: 90%;
+.box2 
+{
+    background: transparent;
+    width: 100%;
     height: 600px;
-    top: 40px;
+    margin-top: 50px;
+    margin-right: 50px;
     border-radius: 20px;
-    border: 3px solid #BCABAB; 
     display: flex;
-    filter: drop-shadow(5px 5px 4px #64CCC9);
+
 }
 
-.box3 {
+.box3 
+{
     box-sizing: border-box;
-    position: absolute;
-    width: 60%;
+    width: 100%;
     height: 398px;
-    left: 25px;
-    top: 65px;
-    background: #FFFFFF;
-    border: 3px solid #BCABAB;
+    left: 35px;
+    top: 20px;
+    background: transparent;
+    border: 1px solid #BCABAB;
     border-radius: 20px;
 }
 
-.box4 {
+.box4 
+{
     box-sizing: border-box;
     position: absolute;
-    width: 30%;
+    width: 28%;
     height: 398px;
-    margin-right: 25px;
+    margin-right: 0px;
     right: 0;
-    top: 65px;
+    top: 50px;
+    margin-right: 10px;
     background: #FFFFFF;
     border-radius: 20px;
     justify-content: center;
     display: inline-block;
 }
 
-.box4 input {
+.box4 input 
+{
     text-align: center;
     box-sizing: border-box;
     width: 90%;
+    margin-top: 10px;
+    margin-left: 16px;
+
     height: 63px;
-    border: 3px solid #BCABAB;
+    border: 1px solid #BCABAB;
     border-radius: 10px;
-    margin-bottom: 10px;
+
 }
-button{
-   bottom: 0;
+
+button 
+{
+    bottom: 0;
 }
